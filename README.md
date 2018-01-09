@@ -19,6 +19,12 @@ First download the library from
 <br>
 To use this library you first need to link the progress bar library to your HTML file.
 
+<<<<<<< HEAD
 ```html
 <script type="text/javascript" src="<LOCATION OF THE JAVASCRIPT FILE"></script>
 ```
+=======
+```bash
+ln -s /path/to/markdown-edit ~/Sites/markdown-edit
+```
+>>>>>>> f3a725c3fed72a18f3d5307227713463af94b682
