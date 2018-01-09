@@ -10,7 +10,7 @@
 #### Yellow Theme
 ![DEMO](images/progressBarYellow.PNG)
 <br>
-### This library also comes with a progress indicator which can be aligned to top and bottom and turned on/off with your preference.
+This library also comes with a progress indicator which can be aligned to top and bottom and turned on/off with your preference.
 <br>
 ## Usage
 <br>
