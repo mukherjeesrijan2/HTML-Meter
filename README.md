@@ -46,9 +46,13 @@ That means, it can be accessed by using the *_window_* object only after the doc
 <br>
 
 *User available functions*
-* **property** - Set property of the progress bar <br> **syntax:** <br> _propery(object, element)_ <br> **supported values in object:** <br> _meter_ - set meter _on_ / _off_ <br> **Example:**
+* **property** - Set property of the progress bar <br> **Syntax:** <br> _propery(object, element)_ <br> **supported Values in object:** <br> _meter_ - set meter _on_ / _off_ <br> **Example:**
 ```html
 property ({meter: 'off'}, document.getElementById('id'))
+```
+* **theme** - Change theme of the progress bar <br> **Syntax:** <br> _theme(themename, element)_ <br> **Available themes:** <br> *default*, *orange*, *blue*, *green*, *purple*, *red*, *redDark*, *blueDark*, *deepBlue*, *yellow* <br> **Example:**
+```html
+theme ("blueDark", document.getElementById('id'))
 ```
 
 ```html
