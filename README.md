@@ -15,8 +15,9 @@ This library also comes with a progress indicator which can be aligned to top an
 ## Usage
 <br>
 First download the library from 
-here(https://github.com/mukherjeesrijan2/HTML-Meter/archive/master.zip)
+[here](https://github.com/mukherjeesrijan2/HTML-Meter/archive/master.zip)
 <br>
 To use this library you first need to link the progress bar library to your HTML file.
-<br>
-```<script type="text/javascript" src="<LOCATION OF THE JAVASCRIPT FILE"></script>```
+```bash
+ln -s /path/to/markdown-edit ~/Sites/markdown-edit
+```
