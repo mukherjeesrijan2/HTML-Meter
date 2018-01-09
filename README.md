@@ -54,6 +54,13 @@ property ({meter: 'off'}, document.getElementById('id'))
 ```html
 theme ("blueDark", document.getElementById('id'))
 ```
+* **changeValue** - Change theme of the progress bar <br> **Syntax:** <br> _changeValue(value, element)_ <br> **Example:**
+```html
+changeValue (30, document.getElementById('id'))
+```
+
+**NOTE:** In the examples above, div with _id_ = *id* has been used.
+<br>
 
 ```html
 document.addEventListener("DOMContentLoaded", function () {
