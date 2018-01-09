@@ -14,7 +14,9 @@ This library also comes with a progress indicator which can be aligned to top an
 <br>
 ## Usage
 <br>
+
 **Including library to project**
+
 <br>
 First download this library.
 <br>
@@ -95,3 +97,9 @@ document.addEventListener("DOMContentLoaded", function () {
 	window.progressBAR.property({meter: 'off'}, progressBarElem)
 })
 ```
+
+### SUPPORT
+<br>
+**Found a bug?**
+<br>
+Please report to **mukherjeesrijan2@gmail.com**.
