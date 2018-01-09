@@ -115,7 +115,7 @@ The container can be styled by just selecting it with its id or if you want to c
 }
 ```
 
-**NOTE:** It is not recommended to change the height of the container, if you do so you also need to change the height of the _meter_ class
+**NOTE:** It is not recommended to change the height of the container, if you do so you also need to add some additional styles to keep everything properly aligned.
 
 <br>
 
