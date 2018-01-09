@@ -15,6 +15,7 @@ This library also comes with a progress indicator which can be aligned to top an
 ## Usage
 <br>
 ### Including library to project
+<br>
 First download this library.
 <br>
 To use this library you first need to link the progress bar library to your HTML file.
