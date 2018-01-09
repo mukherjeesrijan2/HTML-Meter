@@ -14,10 +14,26 @@ This library also comes with a progress indicator which can be aligned to top an
 <br>
 ## Usage
 <br>
-First download the library from  [here](https://github.com/mukherjeesrijan2/HTML-Meter/archive/master.zip)
+### Including library to project
+First download this library.
 <br>
 To use this library you first need to link the progress bar library to your HTML file.
 
 ```html
 <script type="text/javascript" src="<LOCATION OF THE JAVASCRIPT FILE"></script>
 ```
+
+### Creating progress bar
+With this library you can turn a div element into a progress bar.
+<br>
+**Now, in order for this library to work with the div, the div needs to have an _id_.**
+<br>
+To turn it (the div) into a progress bar, we will first make the div ready.
+<br>
+To do this we will use some attributes
+<br>
+* **data-elem** - This attribute makes the div element work as a progress bar.
+* **max** - This is same as the attribute of the traditional progress bar. With this you set the max value of the progress. 
+* **value** - This is also same as the attribute of the progress tag. With this you set the current progress value. 
+* **meter(_optional_)** - This helps you set the visiblity of the meter. By Default its set to "_off_". But you can toggle it by setting the attribute value to "_on_"
+* **meterPosition** - This helps you set the vertical position of the meter. By default its set to _up_ however you can change it to Down by changing the attribute value to _down_
