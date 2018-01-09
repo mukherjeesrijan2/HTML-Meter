@@ -123,7 +123,6 @@ To change the color of the _bar_ (the part that moves)
 <br>
 Select the _bar_ class and set the _background-color_ with a _!important_ flag to change the global _bar_ color use the class _progress_ as the container.
 
-<br>
 **Example (_with reference to the previous example_):**
 
 ```html
@@ -138,7 +137,6 @@ To change the color of the _meter_ (the number representation)
 <br>
 Select the _meter_ class and set the _color_ with a _!important_ flag to change the global _meter_ color use the class _progress_ as the container.
 
-<br>
 **Example (_with reference to the previous example_):**
 
 ```html
@@ -147,8 +145,8 @@ Select the _meter_ class and set the _color_ with a _!important_ flag to change 
 }
 ```
 
-<br>
-**If you change the height of the conatine**
+**If you change the height of the conatiner**
+
 ***Apply the following styles***
 
 ```html
@@ -167,5 +165,4 @@ Select the _meter_ class and set the _color_ with a _!important_ flag to change 
 
 **Found a bug?**
 
-<br>
 Please report to **mukherjeesrijan2@gmail.com**.
