@@ -9,3 +9,12 @@
 ![DEMO](images/progressBarRed.PNG)
 #### Yellow Theme
 ![DEMO](images/progressBarYellow.PNG)
+<br>
+### This library also comes with a progress indicator which can be aligned to top and bottom and turned on/off with your preference.
+<br>
+## Usage
+##### First download the library from ![Here](https://github.com/mukherjeesrijan2/HTML-Meter/archive/master.zip)
+To use this library you first need to link the progress bar library to your HTML file.
+```html
+<script type="text/javascript" src="<LOCATION TO THE JAVASCRIPT FILE"></script>
+```
