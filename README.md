@@ -20,13 +20,13 @@ First download this library.
 To use this library you first need to link the progress bar library to your HTML file.
 
 ```html
-<script type="text/javascript" src="<LOCATION OF THE JAVASCRIPT FILE"></script>
+<script type="text/javascript" src="<LOCATION OF THE JAVASCRIPT FILE>"></script>
 ```
 
 ### Creating progress bar
 With this library you can turn a div element into a progress bar.
 <br>
-**Now, in order for this library to work with the div, the div needs to have an _id_.**
+**Now, in order for this library to work with the div, the div needs to have an _id_ (recommended).**
 <br>
 To turn it (the div) into a progress bar, we will first make the div ready.
 <br>
@@ -54,16 +54,43 @@ property ({meter: 'off'}, document.getElementById('id'))
 ```html
 theme ("blueDark", document.getElementById('id'))
 ```
-* **changeValue** - Change theme of the progress bar <br> **Syntax:** <br> _changeValue(value, element)_ <br> **Example:**
+* **changeValue** - Change value of the progress bar <br> **Syntax:** <br> _changeValue(value, element)_ <br> **Example:**
 ```html
 changeValue (30, document.getElementById('id'))
 ```
 
-**NOTE:** In the examples above, div with _id_ = *id* has been used.
+**NOTE:** In the examples above, div with _id_ = **id** has been used.
 <br>
+
+### Example
+#### HTML
+
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Progress Bar Example</title>
+		<script type="text/javascript" src="library/version 1.0/min/pbl-1.0.0.min.js"></script>
+	</head>
+	<body>
+		<div id="progressBarElem" data-elem="progress" max="100" value="50" meter="on" meterPosition="down"></div>
+	</body>
+</html>
+```
+
+#### Javascript
 
 ```html
 document.addEventListener("DOMContentLoaded", function () {
-	window
+	var progressBarElem = document.getElementById("progressBarElem");
+
+	// Change the value to 70
+	window.progressBAR.changeValue(70, progressBarElem)
+
+	// Change the theme to red
+	window.progressBAR.theme('red', progressBarElem)
+
+	// Turn off the meter
+	window.progressBAR.property({meter: 'off'}, progressBarElem)
 })
 ```
