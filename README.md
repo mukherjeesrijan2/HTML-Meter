@@ -101,6 +101,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 ### SUPPORT
 <br>
+
 **Found a bug?**
+
 <br>
+
 Please report to **mukherjeesrijan2@gmail.com**.
