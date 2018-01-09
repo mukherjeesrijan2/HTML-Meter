@@ -14,7 +14,7 @@ This library also comes with a progress indicator which can be aligned to top an
 <br>
 ## Usage
 <br>
-### Including library to project
+**Including library to project**
 <br>
 First download this library.
 <br>
