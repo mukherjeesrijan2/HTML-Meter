@@ -50,7 +50,7 @@ That means, it can be accessed by using the *_window_* object only after the doc
 <br>
 
 *User available functions*
-* **property** - Set property of the progress bar <br> **Syntax:** <br> _propery(object, element)_ <br> **supported Values in object:** <br> _meter_ - set meter _on_ / _off_ <br> **Example:**
+* **property** - Set property of the progress bar <br> **Syntax:** <br> _propery(object, element)_ <br> **Supported values in object:** <br> _meter_ - set meter _on_ / _off_ <br> **Example:**
 ```html
 property ({meter: 'off'}, document.getElementById('id'))
 ```
