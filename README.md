@@ -19,6 +19,6 @@ First download the library from
 <br>
 To use this library you first need to link the progress bar library to your HTML file.
 <br>
-```html
+```
 <script type="text/javascript" src="<LOCATION TO THE JAVASCRIPT FILE"></script>
 ```
