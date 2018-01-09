@@ -36,4 +36,24 @@ To do this we will use some attributes
 * **max** - This is same as the attribute of the traditional progress bar. With this you set the max value of the progress. 
 * **value** - This is also same as the attribute of the progress tag. With this you set the current progress value. 
 * **meter(_optional_)** - This helps you set the visiblity of the meter. By Default its set to "_off_". But you can toggle it by setting the attribute value to "_on_"
-* **meterPosition** - This helps you set the vertical position of the meter. By default its set to _up_ however you can change it to Down by changing the attribute value to _down_
+* **meterPosition(_optional_)** - This helps you set the vertical position of the meter. By default its set to _up_ however you can change it to Down by changing the attribute value to _down_
+<br>
+
+#### Javascript
+*After you load the library into your project or in your html file, it declares a _progressBAR_ object into global scope after the document is loaded*
+<br>
+That means, it can be accessed by using the *_window_* object only after the document is loaded.
+<br>
+
+*User available functions*
+* **property** - Set property of the progress bar <br> **syntax** <br> propery(object, element) <br> **supported values in object** <br> _meter_ - set meter _on_ / _off_ <br> **Example**<br> 
+
+```html
+property ({meter: 'off'}, document.getElementById('id'))
+```
+
+```html
+document.addEventListener("DOMContentLoaded", function () {
+	window
+})
+```
